@@ -226,9 +226,9 @@ class Game(arcade.Window):
             self.snake_p1.change_direction = 'UP'
         elif key == arcade.key.DOWN or key == arcade.key.S:
             self.snake_p1.change_direction = 'DOWN'
-        elif key == arcade.key.LEFT or key == arcade.key.D:
+        elif key == arcade.key.LEFT or key == arcade.key.A:
             self.snake_p1.change_direction = 'LEFT'
-        elif key == arcade.key.RIGHT or key == arcade.key.A:
+        elif key == arcade.key.RIGHT or key == arcade.key.D:
             self.snake_p1.change_direction = 'RIGHT'
 
 
